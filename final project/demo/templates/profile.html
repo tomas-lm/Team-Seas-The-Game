@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile  
+{% endblock %}
+
+
+{% block main %}
+<div id="profile" class="inselecionavel">
+    <h1 id="username">username: {{ name }}</h1>
+    <h1 id="cash">money: {{ cash }}</h1>
+    <h1 id="position">finishing position: {{ finished }}</h1>
+    <h1 id="FishtankTitle">Fishtank:</h1>
+    {% for skin in skins %}
+    <img class="fishtankimg" src="/static/{{ skin.skinName }}Sprite1.png">
+    {% endfor %}
+</div>
+{% endblock %}

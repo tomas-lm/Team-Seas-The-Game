@@ -1,0 +1,83 @@
+#projects-wrapper
+{
+    background: url(https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dW5kZXJ3YXRlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:110vh;
+    display: flex;
+    color: white;
+    top: 80px;
+    Left: 100px;
+    right: 100px;
+    bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+    padding-bottom: 10vh;
+}
+#projects-wrapper h2
+{
+    text-align: center;
+    font-size: 8em;
+    line-height: 0.7em;
+    color: #FFF;
+    margin-top:-80px;
+}
+#projects-wrapper h2 span
+{
+    display: block;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 0.2em;
+}
+.countdown
+{
+    display:flex;
+    margin-top: 50px;
+}
+.countdown div
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #00000052;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before
+{
+    content:'';
+    position: absolute;
+    bottom: -30px;
+    Left: 0;
+    width: 100%;
+    height: 35px;
+    background: #0d4675d6;
+    color: white;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 500;
+}
+.countdown #days:before
+{
+    content: 'Days';
+}
+.countdown #hours:before
+{
+    content: 'Hours';
+}
+.countdown #minutes:before
+{
+    content: 'Minutes';
+}
+.countdown #seconds:before
+{
+    content: 'Seconds';
+}

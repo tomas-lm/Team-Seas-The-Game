@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Select your skin
+{% endblock %}
+
+{% block main %}
+<h1 class="levelTitle">{{ level }}</h1>    
+<h2 class="selectSkin">Select your skin</h2>
+    <form action="/levels" method="post">
+        <div class="form-group">
+            <select name="skinSelector{{ code }}" class="form-control">
+                <option value="Regular" selected>Regular</option>
+                {% for skin in skins %}
+                <option value="{{ skin.skinName }}">{{ skin.skinName }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button class="btn btn-primary" id="submitSkin" type="submit">Go</button>
+    </form>
+{% endblock %}

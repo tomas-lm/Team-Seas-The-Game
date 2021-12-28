@@ -1,0 +1,37 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: stretch;
+    background-color: #016099;
+
+}
+
+#gameCanvas
+{
+    align-self: center;
+    border: 4px solid black;
+}
+
+#gameCanvasContainer{
+    height: 100vw;
+    display: flex;
+    align-self: center;
+}
+
+#totalCoins{
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}

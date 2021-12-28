@@ -1,0 +1,376 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255)
+}
+
+#total_money{
+    font-weight: bold;
+}
+.requirements{
+    color: white;
+    margin-top: 1.7vh;
+    font-weight: lighter;
+}
+
+#imageTeamLogo{
+    height: 40px;
+}
+.btn-primary{
+    background-color: white;
+    border-color: white;
+    color: #016099;
+}
+body{
+    background-color: #016099;
+}
+
+.text-muted{
+    color: white;
+}
+
+#footerMain{
+    color: white;
+}
+
+#teamSeasLink{
+    color: lightblue;
+}
+#teamSeasLink:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#navBarItems{
+    margin-bottom: 10px;
+}
+
+
+#playAgain{
+    padding-top: 7vh;
+}
+
+.skinContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.storeSkin{
+    height: 75vh;
+    width: 50vw;
+    background-color: #2ba7e2;
+    justify-content: center;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+
+.skinFish{
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+.storeTitle{
+    font: optional;
+    padding-top: 7vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.skinText{
+    font-size: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.priceSkin{
+    font-size: medium;
+}
+
+
+
+/* Level page */
+
+
+#levelContainer{
+    height: 110vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#levelInnerContainer{
+    height: 100vh;
+    width: 50vw;
+    background-color: #2ba7e2;
+    justify-content: center;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+
+#img1level1{
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+#text1level1{
+    font: optional;
+    padding-top: 7vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#level1Button{
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+#text3level1{
+    font-size: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#text2level1{
+    font-size: medium;
+}
+
+
+
+/* Select skin */
+
+.levelTitle{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10vh;
+}
+
+.selectSkin{
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 3vh;
+}
+
+#submitSkin{
+    margin-top: 3vh;
+}
+
+
+.Epic{
+    color: blueviolet;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.Legendary
+{
+    color: gold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.Common
+{
+    color: green;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.Uncommon{
+    color: darkblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.Rare{
+    color: aqua;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.godtier{
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+.Metadev{
+    color: peachpuff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+}
+
+#profile{
+    height: 75vh;
+    background-color: #2ba7e2;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+
+
+#username{
+    margin-top: 3vh;
+    padding-top: 3vh;
+}
+
+#cash{
+    margin-top: 3vh;
+}
+
+#position{
+    margin-top: 3vh;
+}
+
+
+.fishtankimg{
+    height: 10vh;
+}
+
+#FishtankTitle{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+.things{
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: darkgreen;
+}
+
+
+.things2{
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: darkblue;
+}
+
+#thisthing2{
+    margin-bottom: 5vh;
+}
+
+.things3{
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: cyan;
+}
+
+#thisthing3{
+    margin-bottom: 5vh;
+}
+
+.things4{
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: blueviolet;
+}
+
+#thisthing4{
+    margin-bottom: 5vh;
+}
+
+.things5{
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: gold;
+}
+
+#thisthing5{
+    margin-bottom: 5vh;
+}
+
+.AboutText{
+    font-size: 2.7vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px #000000;
+    justify-content: center;
+    align-self: center;
+    letter-spacing: 1px;
+}
+
+#projects-wrapper2
+{
+    background: url(https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dW5kZXJ3YXRlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:130vh;
+    display: flex;
+    color: white;
+    top: 80px;
+    Left: 100px;
+    right: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+    padding-bottom: 10vh;
+}
+
+#textWrapper{
+    display: flex;
+    height: 115%;
+    top: 120vh;
+    Left: 15vw;
+    right: 15vw;
+    bottom: 150vh;
+    background-color: rgba(0, 0, 0, 0.562);
+    flex-direction: column;
+}
+
+#start{
+    padding-top: 5%;
+}
+
+.hoverA{
+    color: royalblue;
+}
+.hoverA:hover{
+    text-decoration: none;
+    color: darkblue;
+}

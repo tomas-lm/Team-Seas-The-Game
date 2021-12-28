@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Yay
+{% endblock %}
+
+{% block main %}
+    <img alt="{{ variable }}" class="border" src="http://memegen.link/custom/{{ text }}/{{ variable }}.jpg?alt=https://i.imgur.com/VUppHak.jpeg" title="{{ variable }}">
+
+    <!-- Does not allow page to be refreshed-->
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+        }
+    </script>
+{% endblock %}
